@@ -1,0 +1,3 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_872d098ffa18_key -iv $encrypted_872d098ffa18_iv
+  -in super_secret.txt.enc -out super_secret.txt -d
